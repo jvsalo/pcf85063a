@@ -1,0 +1,16 @@
+This is an Arduino compatible I2C driver for the NXP Semiconductors
+PCF85063A real-time clock.
+
+It should work with any platform that implements Arduino's Wire interface.
+
+The following features are supported:
+
+  * Get and set time with 1-second accuracy
+  * Reset clock
+  * Pause/resume clock
+  * Control CLKOUT square wave frequency
+  * Configure countdown timer
+  * Configure alarm with 1-second accuracy
+  * Modify CTRL1 and CTRL2 registers
+
+It uses the LGPL-licensed Time library: https://github.com/PaulStoffregen/Time
